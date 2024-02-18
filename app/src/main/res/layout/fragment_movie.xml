@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MovieFragment">
+
+        <ImageView
+            android:id="@+id/movieImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitCenter"
+            android:minHeight="200dp"></ImageView>
+        <TextView
+            android:text="Movie Name"
+            android:id="@+id/movieName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movieImage"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:layout_margin="3dp"></TextView>
+        <TextView
+            android:text="Movie Network"
+            android:id="@+id/movieNetworkCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movieName"
+            android:textSize="18sp"
+            android:textStyle=""
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:layout_margin="3dp"></TextView>
+        <TextView
+            android:text="Movie Status"
+            android:id="@+id/movieStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movieNetworkCountry"
+            android:textSize="18sp"
+            android:textStyle=""
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:layout_margin="3dp"></TextView>
+        <TextView
+            android:text="movie Started"
+            android:id="@+id/movieStarted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movieStatus"
+            android:textSize="18sp"
+            android:textStyle=""
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:layout_margin="3dp"></TextView>
+        <TextView
+            android:text="movie Descriction"
+            android:id="@+id/movieDescrition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movieStarted"
+            android:textSize="18sp"
+            android:textStyle=""
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:layout_margin="3dp"></TextView>
+        <TextView
+            android:text="movie ReadMore"
+            android:id="@+id/movieReadMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movieDescrition"
+            android:textSize="18sp"
+            android:textStyle=""
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:layout_margin="3dp"></TextView>
+
+    </RelativeLayout>
+</layout>
